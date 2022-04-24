@@ -257,7 +257,8 @@ a {
     font-weight: 600;
   }
   .container .hero-info h1 {
-    font-size: 53px;
+    font-size: 64px;
+    width: 64%;
   }
   .container .hero-info p {
     color: #000;

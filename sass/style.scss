@@ -1,0 +1,78 @@
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  border: 0;
+  font-size: 100%;
+  overflow-x: hidden;
+  max-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Colors
+
+//Primary
+
+$red: hsl(0, 100%, 68%);
+
+//Neutral
+
+$veryDarkBlue: hsl(230, 29%, 20%);
+$darkGrayishBlue: hsl(230, 11%, 40%);
+$grayishBlue: hsl(231, 7%, 65%);
+$lightGrayishBlue: hsl(207, 33%, 95%);
+
+$white: #ffffff;
+
+//Fonts
+$bodyFont : 18px;
+
+
+a {
+  color: $veryDarkBlue;
+}
+
+.grey-login {
+  color: $grayishBlue;
+}
+
+.black-btn {
+  letter-spacing: 0;
+  background: $veryDarkBlue;
+  color: $lightGrayishBlue;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5rem;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
+
+.btn-red {
+  background: $red;
+  color: $white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.btn-white {
+  color: $grayishBlue;
+  padding-left: 10px;
+}
+
+@import "./mobile";
+@import "./desktop";
